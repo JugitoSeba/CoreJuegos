@@ -1,0 +1,56 @@
+.navbar {
+    background-color: black;
+    color: orange;
+    font-family: 'Aldrich', sans-serif;
+    padding: 10px 0;
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    text-decoration: none;
+    color: orange;
+  }
+  
+  .nav {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-item {
+    font-size: 18px;
+  }
+  
+  /* Agrega estilos para el dropdown y otros elementos según tus necesidades */
+  
+  .search-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input {
+    border: 1px solid orange;
+    padding: 5px;
+  }
+  
+  .search-button {
+    background-color: orange;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+  }
+  
+  .cart-icon,
+  .profile-icon {
+    font-size: 24px;
+    color: orange;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
