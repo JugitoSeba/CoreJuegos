@@ -1,10 +1,8 @@
 .navbar {
-    background-color: black;
-    color: orange;
     font-family: 'Aldrich', sans-serif;
     padding: 10px 0;
+    background-color: rgb(51, 51, 51);
   }
-  
   .navbar .container {
     display: flex;
     justify-content: space-between;
@@ -12,9 +10,10 @@
   }
   
   .navbar-brand {
+    
     font-size: 24px;
     text-decoration: none;
-    color: orange;
+    color: rgb(255, 94, 0);
   }
   
   .nav {
@@ -35,12 +34,12 @@
   }
   
   .search-input {
-    border: 1px solid orange;
+    border: 1px solid rgb(255, 94, 0);
     padding: 5px;
   }
   
   .search-button {
-    background-color: orange;
+    background-color:rgb(255, 94, 0);
     color: black;
     border: none;
     padding: 5px 10px;
@@ -49,8 +48,11 @@
   .cart-icon,
   .profile-icon {
     font-size: 24px;
-    color: orange;
+    color: rgb(255, 94, 0);
     text-decoration: none;
     margin-left: 20px;
   }
   
+  .nav-link{
+    color:rgb(255, 94, 0);
+  }
