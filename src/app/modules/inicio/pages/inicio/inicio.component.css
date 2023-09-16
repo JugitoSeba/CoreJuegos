@@ -1,0 +1,88 @@
+imagen-con-texto {
+    position: relative;
+    width: 100%; /* Ancho del contenedor al 100% del contenedor padre */
+    max-width: 100%; /* Ancho máximo igual al 100% del contenedor padre */
+    max-height: 80vh; /* Altura máxima igual al 80% de la ventana gráfica */
+  }
+  
+  .imagen-con-texto img {
+    max-height: 80vh; /* Altura máxima igual al 80% de la ventana gráfica */
+    width: auto; /* Ancho automático para mantener la proporción */
+    display: block; /* Elimina cualquier espacio vertical adicional */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+  }
+  
+  .imagen-con-texto span {
+    width: 577px;
+    position: absolute;
+    top: 30%; /* Ajusta la posición vertical al centro */
+    left: 33%; /* Ajusta la posición horizontal al centro */
+    transform: translate(-50%, -50%); /* Centra el texto correctamente */
+    color: #F57906;
+    font-family: Aldrich;
+    font-size: 3vw; /* Tamaño de fuente relativo al ancho de la ventana */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5; /* Espacio entre líneas para el texto de varias líneas */
+    white-space: pre-wrap; /* Permite el ajuste de líneas */
+    word-wrap: break-word; /* Rompe las palabras largas si es necesario */
+  }
+  .imagen-con-texto p {
+    position: absolute;
+    width: 30%;
+    top: 40%; /* Ajusta la posición vertical al centro */
+    left: 16%; /* Ajusta la posición horizontal al centro */
+    color: #FFFFFF; /* Color del texto */
+    font-family: Aldrich; /* Fuente del texto */
+    font-size: 1vw; /* Tamaño del texto */
+  }
+  .imagen-con-texto .comprar-boton {
+    position: absolute;
+    top: 48%; /* Ajusta la posición vertical al centro */
+    left: 16%; /* Ajusta la posición horizontal al centro */
+    background-color: #F57906; /* Color de fondo del botón */
+    color: #FFFFFF; /* Color del texto del botón */
+    height: 6%;
+    width: 9%;
+    font-family: Aldrich;
+    border-radius: 50px;
+    font-size: 16px; /* Tamaño del texto del botón */
+    border: none; /* Elimina el borde del botón */
+    padding: 10px 20px; /* Espaciado interno del botón (arriba/abajo, izquierda/derecha) */
+    margin-top: 10px; /* Espacio superior para separar el botón del texto */
+    cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
+  }
+  
+  .imagen-con-texto .mi-boton:hover {
+    background-color: #FFA500; /* Cambia el color de fondo al pasar el cursor por encima */
+  }
+  
+  
+
+.contenedor {
+    background-color: #1E1E1E;
+    width: 100%;
+    height: 4370px
+}
+
+.lanzamientos{
+    color: #F57906;
+    margin-top: 99px;
+text-align: center;
+font-family: Aldrich;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.bienvenida{
+font-family: Aldrich;
+background: #F57906;
+padding: 9px 100px 9px 544px;
+justify-content: flex-end;
+align-items: flex-start;
+gap: 406px;
+}
+  
+  
