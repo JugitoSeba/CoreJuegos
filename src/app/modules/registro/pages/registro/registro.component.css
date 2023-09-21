@@ -1,5 +1,86 @@
 .naranja{
+position: relative;
+float: left;
 width: 1100px;
 height: 900px;
 flex-shrink: 0;
 }
+
+.naranja span {
+    width: 577px;
+    position: absolute;
+    top: 40%; /* Ajusta la posición vertical al centro */
+    left: 35%; /* Ajusta la posición horizontal al centro */
+    transform: translate(-50%, -50%); /* Centra el texto correctamente */
+    color: #000000;
+    font-family: Aldrich;
+    font-size: 3vw; /* Tamaño de fuente relativo al ancho de la ventana */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5; /* Espacio entre líneas para el texto de varias líneas */
+    white-space: pre-wrap; /* Permite el ajuste de líneas */
+    word-wrap: break-word; /* Rompe las palabras largas si es necesario */
+}
+
+.naranja p {
+    width: 577px;
+    position: absolute;
+    top: 47%; /* Ajusta la posición vertical al centro */
+    left: 35%; /* Ajusta la posición horizontal al centro */
+    transform: translate(-50%, -50%); /* Centra el texto correctamente */
+    color: #000000;
+    font-family: Aldrich;
+    font-size: 20px; 
+    font-style: normal;
+    font-weight: 400;
+}
+
+.zonaRegistro{
+    float: left;
+    font-family: Aldrich;
+}
+.zonaRegistro h2{
+    margin-top: 90%;
+    margin-left: 30%;
+}
+.zonaRegistro p{
+    margin-left: 30%;
+}
+
+.inputNombre{
+    margin-left: 30%;
+    margin-top: 10%;
+display: flex;
+width: 307px;
+padding: 18px 26px;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 10px;
+}
+.inputEmail {
+    margin-left: 30%;
+    margin-top: 10%;
+display: flex;
+width: 307px;
+padding: 18px 26px;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 10px;
+}
+.inputContraseña{
+margin-left: 30%;
+margin-top: 10%;
+display: flex;
+width: 307px;
+padding: 18px 26px;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 10px;
+}
+
+.clear {
+    clear: both;
+  }

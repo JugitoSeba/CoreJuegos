@@ -63,8 +63,8 @@ imagen-con-texto {
 }
 
 .lanzamientos{
-    color: #F57906;
-    margin-top: 99px;
+color: #F57906;
+margin-top: 99px;
 text-align: center;
 font-family: Aldrich;
 font-size: 48px;
@@ -80,35 +80,4 @@ padding: 9px 100px 9px 544px;
 justify-content: flex-end;
 align-items: flex-start;
 gap: 406px;
-}
-.imgFilter{
-  filter: brightness(0.80);
-}
-
-.newColorPurple{
-  background-color: #F57906;
-  border: none;
-  color: #FFFFFF;
-}
-.logo1{
-  animation: scaleLogo 2s infinite alternate;
-}
-@keyframes scaleLogo{
-  to{
-    transform: scale(1.2);
-  }
-}
-*{
-  scroll-behavior: smooth;
-}
-.card img{
-  transition: transform 2s;
-}
-.card img:hover{
-  transform: scale(1.1);
-}
-.cardImg{
-  position: relative;
-  overflow: hidden;
-  cursor: pointer;
 }
