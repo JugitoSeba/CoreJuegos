@@ -84,5 +84,34 @@ justify-content: flex-end;
 align-items: flex-start;
 gap: 406px;
 }
-  
-  
+.imgFilter{
+  filter: brightness(0.80);
+}
+
+.newColorPurple{
+  background-color: #F57906;
+  border: none;
+  color: #FFFFFF;
+}
+.logo1{
+  animation: scaleLogo 2s infinite alternate;
+}
+@keyframes scaleLogo{
+  to{
+    transform: scale(1.2);
+  }
+}
+*{
+  scroll-behavior: smooth;
+}
+.card img{
+  transition: transform 2s;
+}
+.card img:hover{
+  transform: scale(1.1);
+}
+.cardImg{
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
