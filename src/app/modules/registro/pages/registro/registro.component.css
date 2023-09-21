@@ -81,6 +81,20 @@ align-items: flex-start;
 gap: 10px;
 }
 
+.button{
+border-radius: 30px;
+background: #DF6B00;
+display: flex;
+width: 307px;
+padding: 18px 26px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+margin-left: 30%;
+margin-top: 10%;
+}
+
 .clear {
     clear: both;
   }
