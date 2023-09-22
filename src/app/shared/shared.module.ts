@@ -9,6 +9,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatMenuModule } from '@angular/material/menu';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -18,8 +19,8 @@ import { MatMenuModule } from '@angular/material/menu';
     NavbarComponent
   ],
   imports: [
+    RouterModule,
     CommonModule,
-    AppRoutingModule,
     MatIconModule,
     MatButtonModule,
     MatToolbarModule,
@@ -31,7 +32,7 @@ import { MatMenuModule } from '@angular/material/menu';
     MatIconModule,
     MatButtonModule,
     MatToolbarModule,
-    MatMenuModule
+    MatMenuModule,
   ]
 })
 export class SharedModule { }
