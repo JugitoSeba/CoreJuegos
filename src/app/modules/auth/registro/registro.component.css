@@ -57,6 +57,9 @@ flex-direction: column;
 justify-content: center;
 align-items: flex-start;
 gap: 10px;
+border-radius: 30px; 
+border: 1px solid #EEE;
+background: #FFF;
 }
 .inputEmail {
 margin-left: 30%;
@@ -68,8 +71,11 @@ flex-direction: column;
 justify-content: center;
 align-items: flex-start;
 gap: 10px;
+border-radius: 30px; 
+border: 1px solid #EEE;
+background: #FFF;
 }
-.inputContraseña{
+.inputContrasena{
 margin-left: 30%;
 margin-top: 10%;
 display: flex;
@@ -79,6 +85,9 @@ flex-direction: column;
 justify-content: center;
 align-items: flex-start;
 gap: 10px;
+border-radius: 30px; 
+border: 1px solid #EEE;
+background: #FFF;
 }
 
 .button{

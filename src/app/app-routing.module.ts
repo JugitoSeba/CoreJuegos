@@ -1,8 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { InicioComponent } from './modules/inicio/pages/inicio/inicio.component';
-import { RegistroComponent } from "./modules/registro/pages/registro/registro.component"
-
 
 const routes: Routes = [
   {
@@ -11,9 +9,8 @@ const routes: Routes = [
   {
     path:"",loadChildren:()=>import('./modules/inicio/inicio.module').then(m=>m.InicioModule)
   },
- 
   {
-    path:"auth",loadChildren:()=>import('./modules/registro/registro.module').then(m=>m.RegistroModule)
+    path:"auth",loadChildren:()=>import('./modules/auth/auth.module').then(m=>m.AuthModule)
   }
 ];
 

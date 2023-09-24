@@ -25,7 +25,6 @@ import { AuthService } from './services/auth.service';
   ],
   imports: [
     CommonModule,
-    RegistroComponent,
     AuthRoutingModule,
     MatIconModule,
     MatInputModule,
