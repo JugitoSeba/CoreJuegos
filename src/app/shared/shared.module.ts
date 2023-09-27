@@ -20,7 +20,6 @@ import { RouterModule } from '@angular/router';
   ],
   imports: [
     RouterModule,
-    AppRoutingModule,
     CommonModule,
     MatIconModule,
     MatButtonModule,

@@ -3,6 +3,7 @@ import { AuthService } from '../services/auth.service';
 import { Usuario } from 'src/app/models/usuario';
 import { FirestoreService } from 'src/app/shared/services/firestore.service';
 import { Router } from '@angular/router';
+import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 
 @Component({
   selector: 'app-registro',
@@ -18,8 +19,6 @@ export class RegistroComponent {
     email: '',
     contrasena: ''
   }
-
-  uid = '';
 
   // creamos una nueva colección para usuarios
   coleccionUsuarios: Usuario[] = [];
