@@ -4,7 +4,7 @@ import { BusquedaComponent } from "./pages/busqueda/busqueda.component";
 
 const routes: Routes = [
   {
-    path:"busqueda",component:BusquedaComponent
+    path:"",component:BusquedaComponent
   }
 ];
 

@@ -18,7 +18,7 @@ imagen-con-texto {
     top: 30%; /* Ajusta la posición vertical al centro */
     left: 33%; /* Ajusta la posición horizontal al centro */
     transform: translate(-50%, -50%); /* Centra el texto correctamente */
-    color: #F57906;
+    color: orangered;
     font-family: Aldrich;
     font-size: 3vw; /* Tamaño de fuente relativo al ancho de la ventana */
     font-style: normal;
@@ -54,7 +54,7 @@ imagen-con-texto {
   }
   
   .imagen-con-texto .mi-boton:hover {
-    background-color: #FFA500; /* Cambia el color de fondo al pasar el cursor por encima */
+    background-color: #ffffff; /* Cambia el color de fondo al pasar el cursor por encima */
   }
 .contenedor {
     background-color: #1E1E1E;

@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { AppRoutingModule } from '../app-routing.module';
 
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
@@ -20,7 +19,6 @@ import { RouterModule } from '@angular/router';
   ],
   imports: [
     RouterModule,
-    AppRoutingModule,
     CommonModule,
     MatIconModule,
     MatButtonModule,
