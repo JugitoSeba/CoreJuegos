@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { PerfilRoutingModule } from './perfil-routing.module';
 import { PerfilComponent } from './pages/perfil/perfil.component';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { PerfilComponent } from './pages/perfil/perfil.component';
   ],
   imports: [
     CommonModule,
-    PerfilRoutingModule
+    PerfilRoutingModule,
+    SharedModule
   ]
 })
 export class PerfilModule { }
