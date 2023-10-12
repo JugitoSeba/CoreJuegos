@@ -5,6 +5,10 @@ import { BusquedaRoutingModule } from './busqueda-routing.module';
 import { BusquedaComponent } from './pages/busqueda/busqueda.component';
 import { SharedModule } from "src/app/shared/shared.module";
 import {MatGridListModule} from '@angular/material/grid-list';
+import {MatButtonModule} from '@angular/material/button';
+import {MatCardModule} from '@angular/material/card';
+
+
 
 
 @NgModule({
@@ -15,7 +19,9 @@ import {MatGridListModule} from '@angular/material/grid-list';
     CommonModule,
     BusquedaRoutingModule,
     SharedModule,
-    MatGridListModule
+    MatGridListModule,
+    MatButtonModule,
+    MatCardModule,
   ]
 })
 export class BusquedaModule { }

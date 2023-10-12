@@ -14,6 +14,9 @@ const routes: Routes = [
   },
   {
     path:"busqueda",loadChildren:()=>import("./modules/busqueda/busqueda.module").then(m=>m.BusquedaModule)
+  },
+  {
+    path:"perfil",loadChildren:()=>import("./modules/perfil/perfil.module").then(m=>m.PerfilModule)
   }
 ];
 
