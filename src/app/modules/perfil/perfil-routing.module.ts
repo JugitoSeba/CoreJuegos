@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { PerfilComponent } from './pages/perfil/perfil.component';
 import { DatosComponent } from './pages/datos/datos.component';
 import { SeguridadComponent } from './pages/seguridad/seguridad.component';
+import { DireccionComponent } from './pages/direccion/direccion.component';
 
 const routes: Routes = [
   {
@@ -13,7 +14,10 @@ const routes: Routes = [
   },
   {
     path:"seguridad",component:SeguridadComponent
-  }
+  },
+  {
+    path:"direccion",component:DireccionComponent
+  },
 ];
 
 @NgModule({

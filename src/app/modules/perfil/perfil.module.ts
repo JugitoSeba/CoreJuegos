@@ -6,13 +6,15 @@ import { PerfilComponent } from './pages/perfil/perfil.component';
 import { SharedModule } from 'src/app/shared/shared.module';
 import { DatosComponent } from './pages/datos/datos.component';
 import { SeguridadComponent } from './pages/seguridad/seguridad.component';
+import { DireccionComponent } from './pages/direccion/direccion.component';
 
 
 @NgModule({
   declarations: [
     PerfilComponent,
     DatosComponent,
-    SeguridadComponent
+    SeguridadComponent,
+    DireccionComponent
   ],
   imports: [
     CommonModule,
