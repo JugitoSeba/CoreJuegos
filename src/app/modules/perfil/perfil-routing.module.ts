@@ -4,6 +4,7 @@ import { PerfilComponent } from './pages/perfil/perfil.component';
 import { DatosComponent } from './pages/datos/datos.component';
 import { SeguridadComponent } from './pages/seguridad/seguridad.component';
 import { DireccionComponent } from './pages/direccion/direccion.component';
+import { PagosComponent } from './pages/pagos/pagos.component';
 
 const routes: Routes = [
   {
@@ -18,6 +19,9 @@ const routes: Routes = [
   {
     path:"direccion",component:DireccionComponent
   },
+  {
+    path:"pagos",component:PagosComponent
+  }
 ];
 
 @NgModule({
