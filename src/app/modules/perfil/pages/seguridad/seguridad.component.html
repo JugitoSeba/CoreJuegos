@@ -1,1 +1,88 @@
-<p>seguridad works!</p>
+<html>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/ab7942aa6d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
+</head>
+<body id="body">
+    <div class="container-fluid main" style="height:100vh;padding-left:0px;">
+        
+        <div class="d-block d-md-none menu">
+
+            <div class="bar"></div>
+        
+        </div>
+        
+        <div class="row align-items-center" style="height:100%">
+    
+        <div class="col-md-3 d-none d-md-block" style="height:100%" >
+        
+            <div class="container-fluid nav sidebar flex-column">
+                
+                <a routerLink="/perfil/datos" class="nav-link mt-auto" style="color: #000000;"><i class="fa-solid fa-user-circle"></i> Mi Perfil y Datos</a>
+                <a routerLink="/perfil/seguridad" class="nav-link active" style="color: #000000;"><i class="fa-solid fa-lock"></i> Seguridad y Privacidad</a>
+                <a href="direccion.html" class="nav-link" style="color: #000000;"><i class="fa-solid fa-map-location-dot"></i>Mi dirección</a>
+                <a href="pagos.html" class="nav-link" style="color: #000000;"><i class="far fa-credit-card"></i>Tarjetas y Pagos</a>
+            </div>
+        
+        </div>
+        
+        <div class="col-md-9">
+            
+            <div class="container content clear-fix">
+        
+            <h2 class="mt-5 mb-5">Seguridad y Privacidad</h2>  
+                
+                <div class="col-md-9">
+                    
+                    <div class="container">
+                    
+                        <form>
+                    
+                            <div class="form-group">
+
+                                <label for=contraseña>Cambiar Contraseña</label>
+                                <input type="password" class="form-control" id="contraseña">
+
+                            </div>
+                            <div class="form-group">
+
+                                <label for=confirmar>Confirmar Contraseña</label>
+                                <input type="password" class="form-control" id="confirmar">
+
+                            </div>
+                            
+                            <div class="row mt-5">
+                            
+                                <div class="col">
+                                
+                                    <button type="button" class="btn btn-primary btn-block">Guardar Cambios</button>
+                                
+                                </div>
+                                
+                                <div class="col">
+                                
+                                    <button type="button" class="btn btn-default btn-block">Cancelar</button>
+                                
+                                </div>
+                            
+                            </div>
+
+                        </form>
+                    
+                    </div>
+                
+                </div>
+            
+            </div>
+        
+        </div>
+            
+        </div>
+    
+    </div>
+    
+
+</body>
+</html>

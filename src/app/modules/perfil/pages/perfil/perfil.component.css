@@ -1,5 +1,5 @@
 #body{
-    font-family: 'Montserrat';
+    font-family: 'Aldrich';
     background-color:#1b1a1a;
     height: 100vw;
 }
@@ -11,7 +11,7 @@
     width: 100%;
     max-width: 400px;
     height: auto;
-    background-color: #f0f0f0;
+    background-color: #252525;
     border-radius: 5px;
     margin-bottom: 20px;
     padding: 20px;
@@ -50,7 +50,8 @@
   }
   
   .card:hover:before {
-    border-color: #d2a365;
+    border-color: #F57906;
+    ;
   }
   
   .card i {
@@ -65,13 +66,13 @@
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 10px;
-    color: #000000;
+    color: #ff5e00;
   }
   
   .card-text {
     font-size: 16px;
     margin-bottom: 0;
-    color: #000000;
+    color: #ff5e00;
   }
   
   .container {

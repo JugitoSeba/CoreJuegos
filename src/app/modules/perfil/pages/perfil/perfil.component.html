@@ -1,28 +1,17 @@
 <app-navbar></app-navbar>
-<body>
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-      <script src="https://kit.fontawesome.com/06de94c86d.js" crossorigin="anonymous"></script>
-      <title>Document</title>
-  </head>
-  <body id="body">  
+  <html>
+    <body id="body">  
     <div class="container">
   
       <a routerLink="/perfil/datos">
         <div class="card">
-        <i class="fa-solid fa-circle-user fa-5x" style="color: #10c1be;"></i>
+          <i> person_pin</i>
         <h2 class="card-title">Mi Perfil y Datos</h2>
         <p class="card-text">Nombre, Foto de perfil, Configuración de cuenta y Preferencias.</p>
       </div>
     </a>
   
-      <a href="seguridad.html">
+    <a routerLink="/perfil/seguridad">
         <div class="card">
         <i class="fa-solid fa-lock fa-5x" style="color: #10c1be;"></i>
         <h2 class="card-title">Seguridad y Privacidad</h2>
@@ -44,5 +33,4 @@
     </a>
     </div>
   </body>
-  </html>
-</body>
+</html>
