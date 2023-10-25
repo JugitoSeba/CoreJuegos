@@ -1,0 +1,101 @@
+#body{
+    font-family: 'Montserrat';
+    background-color: #1b1a1a
+}
+
+body,html{
+    height:100%;
+}
+h2{
+    font-weight: bolder;
+    color: #65d0d2;
+}
+
+form{
+    width:550px;
+}
+
+form *{
+    font-weight: bold;
+}
+
+form label{
+    font-size: 18px;
+    color:aliceblue
+}
+form .form-control,form .form-control:focus{
+    border-color:transparent;
+    border-bottom-color: #bebcc1;
+    box-shadow:none;
+}
+.col-md-3 img{
+    object-fit: fill;
+    margin-top: 19px;
+    height: 120px;
+    border: solid;
+    border-color: #65d0d2;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+#inputFoto{
+    color: #65d0d2;
+    border-radius: 100%;
+}
+
+form .btn{ 
+    border-radius: 7%;
+    border-color: transparent;
+}
+.btn.btn-default{
+    background: #a3061e;
+    color:#d2d2d2;
+    border-radius: 10%;
+}
+
+.btn.btn-primary{
+    background:  #65d0d2;
+    color:white;
+}
+.sidebar {
+    height: 100vh !important;
+    bottom: 0;
+    padding-left:20px;
+    font-size: 1.3rem;
+    background:  #65d0d2;
+}
+
+@media screen and (max-width:940px){
+    .sidebar{
+        font-size: 1rem;
+        padding-left :0px;
+    }
+}
+
+
+.sidebar .nav-link{
+    margin-bottom: 20px;
+    color:#dddce5;
+}
+
+.nav-link.active{
+    color:#fff;
+}
+
+.main > .row{
+    height: 100%;
+}
+
+@media screen and (max-width:768px){
+    .content{
+        padding-left:50px; 
+        width: 100%;
+        padding-top: 200px;
+        padding-bottom: 50px;
+    }
+    
+    form{
+        width: 100%;
+        margin:auto;
+    }
+    
+}

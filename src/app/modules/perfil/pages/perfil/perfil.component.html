@@ -1,44 +1,48 @@
 <app-navbar></app-navbar>
 <body>
-    <div class="main">
-        <div class="input-group mb-3">
-            <label class="input-group-text" for="inputGroupSelect01">Options</label>
-            <select class="form-select" id="inputGroupSelect01">
-              <option selected>Choose...</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
-            </select>
-          </div>
-          
-          <div class="input-group mb-3">
-            <select class="form-select" id="inputGroupSelect02">
-              <option selected>Choose...</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
-            </select>
-            <label class="input-group-text" for="inputGroupSelect02">Options</label>
-          </div>
-          
-          <div class="input-group mb-3">
-            <button class="btn btn-outline-secondary" type="button">Button</button>
-            <select class="form-select" id="inputGroupSelect03" aria-label="Example select with button addon">
-              <option selected>Choose...</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
-            </select>
-          </div>
-          
-          <div class="input-group">
-            <select class="form-select" id="inputGroupSelect04" aria-label="Example select with button addon">
-              <option selected>Choose...</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
-            </select>
-            <button class="btn btn-outline-secondary" type="button">Button</button>
-          </div>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+      <script src="https://kit.fontawesome.com/06de94c86d.js" crossorigin="anonymous"></script>
+      <title>Document</title>
+  </head>
+  <body id="body">  
+    <div class="container">
+  
+      <a routerLink="/perfil/datos">
+        <div class="card">
+        <i class="fa-solid fa-circle-user fa-5x" style="color: #10c1be;"></i>
+        <h2 class="card-title">Mi Perfil y Datos</h2>
+        <p class="card-text">Nombre, Foto de perfil, Configuración de cuenta y Preferencias.</p>
+      </div>
+    </a>
+  
+      <a href="seguridad.html">
+        <div class="card">
+        <i class="fa-solid fa-lock fa-5x" style="color: #10c1be;"></i>
+        <h2 class="card-title">Seguridad y Privacidad</h2>
+        <p class="card-text">Contraseñas, Aviso de Privacidad, Solicita tu información.</p>
+      </div>
+    </a>
+      <a href="direccion.html"><div class="card">
+        <i class="fa-solid fa-map-location-dot fa-5x" style="color: #10c1be;"></i>
+        <h2 class="card-title">Mi dirección</h2>
+        <p class="card-text">Editar, eliminar o establecer una dirección predeterminada.</p>
+      </div>
+    </a>
+      <a href="pagos.html">
+        <div class="card">
+        <i class="fa-solid fa-credit-card fa-5x"  style="color: #10c1be;"></i>
+        <h2 class="card-title">Tarjetas y Pagos</h2>
+        <p class="card-text">Ver todas las transacciones, administrar métodos de pago y configuraciones.</p>
+      </div>
+    </a>
     </div>
+  </body>
+  </html>
 </body>
