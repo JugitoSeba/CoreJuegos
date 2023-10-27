@@ -1,1 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/ab7942aa6d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
+</head>
+<body id="body">
+    <app-navbar></app-navbar>
+    <div class="container-fluid main" style="height:100%;padding-left:0px;">
 
+        <div class="row" style="height:100%">
+            <div class="col-md-2 d-none d-md-block" style="height:1500px" >
+                <div class="container-fluid nav sidebar flex-column">
+
+                </div>
+            </div>
+
+            <div class="col-md-9">
+                <div class="container content clear-fix">
+                    <div class="container overflow-hidden">
+                        <div class="row gy-5">
+                          <div class="col-4">
+                            <div class="p-3"><div class="card" style="width: 18rem;">
+                                <img src="../../../../../assets/img/darksols.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Dark Souls III</h5>
+                                  <p class="card-text">Precio:1300$</p>
+                                  <a class="btn btn-outline-primary">Comprar</a>
+                                </div>
+                              </div></div>
+                          </div>
+                          <div class="col-4">
+                            <div class="p-3"><div class="card" style="width: 18rem;">
+                                <img src="/CoreJuegos/src/assets/img/batman-arkham-knight1-a80e8acd8cdda0e16915535401463378-640-0.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Batman Arkham Knight</h5>
+                                  <p class="card-text">Precio:1000$</p>
+                                  <a  class="btn btn-outline-primary" onclick="sumador(1000,'Batman Arkham Knight')">Comprar</a>
+                                </div>
+                              </div></div>
+                          </div>
+                          <div class="col-4">
+                            <div class="p-3"><div class="card" style="width: 18rem;">
+                                <img src="imagenes/Enter-the-Gungeon-A-Farewell-to-Arms-ps4.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Enter the Gungeon</h5>
+                                  <p class="card-text">Precio:1100$</p>
+                                  <a  class="btn btn-outline-primary" onclick="sumador(1100,'Enter the Gungeon')">Comprar</a>
+                                </div>
+                              </div></div>
+                          </div>
+                          <div class="col-4">
+                            <div class="p-3"><div class="card" style="width: 18rem;">
+                                <img src="imagenes/horizon__nombre_provisional_-3650681.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Horizon Zero Dawn</h5>
+                                  <p class="card-text">Precio:900$</p>
+                                  <a class="btn btn-outline-primary" onclick="sumador(900,'Horizon Zero Dawn')">Comprar</a>
+                                </div>
+                              </div></div>
+                        </div>
+                        <div class="col-4">
+                            <div class="p-3"><div class="card" style="width: 18rem;">
+                                <img src="imagenes/last.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Battlefield 1</h5>
+                                  <p class="card-text">Precio:1000$</p>
+                                  <a class="btn btn-outline-primary" onclick="sumador(1000,'The Last of Us')">Comprar</a>
+                                </div>
+                              </div></div>
+                        </div>
+                      <div class="p-3 mb-2 bg-secondary text-white" id="seccion1">Playstation 3</div>
+                            <div class="col-4">
+                                <div class="p-3"><div class="card" style="width: 18rem;">
+                                    <img src="imagenes/batman-arkham-origins1-9407665f0f4c80651115857916626723-640-0.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Batman Arkham Origins</h5>
+                                      <p class="card-text">Precio:600$</p>
+                                      <a class="btn btn-dark" onclick="sumador(600,'Batman Arkham Origins')">Comprar</a>
+                                    </div>
+                                  </div></div>
+                              </div>
+                              <div class="col-4">
+                                <div class="p-3"><div class="card" style="width: 18rem;">
+                                    <img src="imagenes/infamous_2-1715256.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Infamous 2</h5>
+                                      <p class="card-text">Precio:800$</p>
+                                      <a class="btn btn-dark" onclick="sumador(800,'Infamous 2')">Comprar</a>
+                                    </div>
+                                  </div></div>
+                              </div>
+                              <div class="col-4">
+                                <div class="p-3"><div class="card" style="width: 18rem;">
+                                    <img src="imagenes/RISING.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Metal Gear Rising</h5>
+                                      <p class="card-text">Precio:900$</p>
+                                      <a  class="btn btn-dark" onclick="sumador(900,'Metal Gear Rising')">Comprar</a>
+                                    </div>
+                                  </div></div>
+                              </div>
+                              <div class="col-4">
+                                <div class="p-3"><div class="card" style="width: 18rem;">
+                                    <img src="imagenes/METAL GEAR.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Metal Gear Solid Collection</h5>
+                                      <p class="card-text">Precio:1000$</p>
+                                      <a class="btn btn-dark"onclick="sumador(1000,'Metal Gear Solid Collection')">Comprar</a>
+                                    </div>
+                                  </div></div>
+                            </div>
+                            <div class="col-4">
+                                <div class="p-3"><div class="card" style="width: 18rem;">
+                                    <img src="imagenes/gow.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">God of War Ascencion</h5>
+                                      <p class="card-text">Precio:800$</p>
+                                      <a  class="btn btn-dark" onclick="sumador(800,'God of War Ascenciòn')">Comprar</a>
+                                    </div>
+                                  </div></div>
+                          </div>
+                          <div class="p-3 mb-2 bg-success text-white" id="seccion1">XBOX ONE</div>
+                            <div class="col-4">
+                                <div class="p-3"><div class="card" style="width: 18rem;">
+                                    <img src="imagenes/forza4.webp"card-img-top alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Forza Horizon 4</h5>
+                                      <p class="card-text">Precio:1200$</p>
+                                      <a class="btn btn-dark" onclick="sumador(600,'Forza Horizon 4')">Comprar</a>
+                                    </div>
+                                  </div></div>
+                              </div>
+                              <div class="col-4">
+                                <div class="p-3"><div class="card" style="width: 18rem;">
+                                    <img src="imagenes/dead3.jpg
+                                    " class="card-img-top" alt="...">a
+                                    <div class="card-body">
+                                      <h5 class="card-title">Deadrising 3</h5>
+                                      <p class="card-text">Precio:1200$</p>
+                                      <a class="btn btn-dark" onclick="sumador(1200,'Deadrising 3')">Comprar</a>
+                                    </div>
+                                  </div></div>
+                              </div>
+                              <div class="col-4">
+                                <div class="p-3"><div class="card" style="width: 18rem;">
+                                    <img src="imagenes/RISING.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Metal Gear Rising</h5>
+                                      <p class="card-text">Precio:900$</p>
+                                      <a  class="btn btn-dark" onclick="sumador(900,'Metal Gear Rising')">Comprar</a>
+                                    </div>
+                                  </div></div>
+                              </div>
+                              <div class="col-4">
+                                <div class="p-3"><div class="card" style="width: 18rem;">
+                                    <img src="imagenes/METAL GEAR.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Metal Gear Solid Collection</h5>
+                                      <p class="card-text">Precio:1000$</p>
+                                      <a class="btn btn-dark"onclick="sumador(1000,'Metal Gear Solid Collection')">Comprar</a>
+                                    </div>
+                                  </div></div>
+                            </div>
+                            <div class="col-4">
+                                <div class="p-3"><div class="card" style="width: 18rem;">
+                                    <img src="imagenes/gow.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">God of War Ascencion</h5>
+                                      <p class="card-text">Precio:800$</p>
+                                      <a  class="btn btn-dark" onclick="sumador(800,'God of War Ascenciòn')">Comprar</a>
+                                    </div>
+                                  </div></div>
+                          </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

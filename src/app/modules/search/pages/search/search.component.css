@@ -1,0 +1,42 @@
+#body{
+    font-family: 'Aldrich';
+    background-color: #1b1a1a
+}
+
+body,html{
+    height:100%;
+}
+
+.sidebar {
+    height: 100%;
+    bottom: 0;
+    padding-left:20px;
+    font-size: 1.3rem;
+    background:  #e24800;
+}
+
+@media screen and (max-width:940px){
+    .sidebar{
+        font-size: 1rem;
+        padding-left :0px;
+    }
+} 
+
+.main > .row{
+    height: 100%;
+}
+
+@media screen and (max-width:768px){
+    .content{
+        padding-left:50px; 
+        width: 100%;
+        padding-top: 200px;
+        padding-bottom: 50px;
+    }
+    
+    form{
+        width: 100%;
+        margin:auto;
+    }
+    
+}
