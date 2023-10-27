@@ -13,7 +13,7 @@ const routes: Routes = [
     path:"auth",loadChildren:()=>import('./modules/auth/auth.module').then(m=>m.AuthModule)
   },
   {
-    path:"busqueda",loadChildren:()=>import("./modules/busqueda/busqueda.module").then(m=>m.BusquedaModule)
+    path:"search",loadChildren:()=>import("./modules/search/search.module").then(m=>m.SearchModule)
   },
   {
     path:"perfil",loadChildren:()=>import("./modules/perfil/perfil.module").then(m=>m.PerfilModule)
