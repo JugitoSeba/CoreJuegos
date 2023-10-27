@@ -40,3 +40,8 @@ body,html{
     }
     
 }
+
+.card{
+    width: 15rem; 
+    height: 30rem;
+}
