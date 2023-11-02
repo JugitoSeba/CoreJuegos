@@ -51,3 +51,16 @@ body,html{
     font-size: 20px;
     color: #F57906;
 }
+
+p{
+    color: grey;
+}
+
+.inputMinimo{
+    font-size: small;
+    width: 50%;
+}
+.inputMaximo{
+    font-size: small;
+    width: 50%;
+}

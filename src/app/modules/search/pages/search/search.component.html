@@ -10,7 +10,6 @@
     <app-navbar></app-navbar>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">PS4</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -46,8 +45,22 @@
         <div class="row" style="height:100%">
             <div class="col-md-2 d-none d-md-block" style="height:1500px" >
                 <div class="container-fluid nav sidebar flex-column">
-                    <p id="filtrosP" class="bi bi-sliders2-vertical">Filtros</p>
-                    <p></p>
+                  <p id="filtrosP" class="bi bi-sliders2-vertical">Filtros</p>
+                    <div class="filtrosJuegos">
+                      <p style="color: #F57906; font-size: 17px;">Tipo de Juego</p>
+                      <p>Disparos</p>
+                      <p>Hack and Slash</p>
+                      <p>Roguelike</p>
+                      <p>Multijugador</p>
+                      <p>Surival Horror</p>
+                      <p>Mundo Abierto</p>
+                      <p>Pelea</p>
+                      <p>Carreras</p>
+                    </div>
+                    <div class="filtroPrecio">
+                      <p style="color: #F57906;font-size: 17px;">Precio</p>
+                      <input type="number" placeholder="Minimo" class="inputMinimo"><input type="number" placeholder="Maximo" class="inputMaximo">
+                    </div>
                 </div>
             </div>
 
