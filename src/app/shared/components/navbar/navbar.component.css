@@ -60,7 +60,8 @@
   .botonRegistro{
     font-size: 18px;
     color:rgb(255, 94, 0);
-    outline: 10px;
-    outline-color: red;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+    border-style:ridge
   }
 
