@@ -10,9 +10,9 @@ body,html{
 .sidebar {
     height: 100%;
     bottom: 0;
-    padding-left:20px;
-    font-size: 1.3rem;
-    background:  #e24800;
+    padding-left: 15%;
+    padding-top: 20%;
+    background:  #1b1a1a;
 }
 
 @media screen and (max-width:940px){
@@ -44,4 +44,10 @@ body,html{
 .card{
     width: 15rem; 
     height: 30rem;
+}
+
+#filtrosP{
+    padding-bottom: 10%;
+    font-size: 20px;
+    color: #F57906;
 }
