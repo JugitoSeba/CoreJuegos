@@ -76,8 +76,5 @@ line-height: normal;
 .bienvenida{
 font-family: Aldrich;
 background: #F57906;
-padding: 9px 100px 9px 544px;
-justify-content: flex-end;
-align-items: flex-start;
-gap: 406px;
+padding: 1% 2% 1% 35%;
 }
