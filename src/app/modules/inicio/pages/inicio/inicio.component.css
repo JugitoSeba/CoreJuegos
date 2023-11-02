@@ -15,7 +15,7 @@ imagen-con-texto {
   .imagen-con-texto span {
     width: 577px;
     position: absolute;
-    top: 30%; /* Ajusta la posición vertical al centro */
+    top: 35%; /* Ajusta la posición vertical al centro */
     left: 41%; /* Ajusta la posición horizontal al centro */
     transform: translate(-50%, -50%); /* Centra el texto correctamente */
     color: rgb(255, 160, 36);
@@ -30,7 +30,7 @@ imagen-con-texto {
   .imagen-con-texto p {
     position: absolute;
     width: 30%;
-    top: 40%; /* Ajusta la posición vertical al centro */
+    top: 47%; /* Ajusta la posición vertical al centro */
     left: 20%; /* Ajusta la posición horizontal al centro */
     color: #FFFFFF; /* Color del texto */
     font-family: Aldrich; /* Fuente del texto */
@@ -38,7 +38,7 @@ imagen-con-texto {
   }
   .imagen-con-texto .comprar-boton {
     position: absolute;
-    top: 48%; /* Ajusta la posición vertical al centro */
+    top: 55%; /* Ajusta la posición vertical al centro */
     left: 20%; /* Ajusta la posición horizontal al centro */
     background-color: #F57906; /* Color de fondo del botón */
     color: #FFFFFF; /* Color del texto del botón */
