@@ -1,0 +1,61 @@
+*{
+    font-family: Aldrich;
+}
+.footer{
+    width: 100%;
+    height: 589px;
+    flex-shrink: 0;
+    background: #1D1D1D;
+}
+
+.diario{
+    display: flex;
+    width: 1240px;
+    padding: 36px 64px;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    background: #F57906;
+}
+
+.mensaje{
+    width: 551px;
+height: 123px;
+flex-shrink: 0;
+color: #202020;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 45px; /* 112.5% */
+}
+
+.email{
+    display: flex;
+width: 349px;
+padding: 12px 16px;
+align-items: flex-start;
+gap: 12px;
+border-radius: 62px;
+background: #1F1F1F;
+}
+
+.subscribirse{
+    display: flex;
+width: 349px;
+padding: 12px 16px;
+justify-content: center;
+align-items: center;
+gap: 12px;
+border-radius: 62px;
+background: #1F1F1F;
+color: #F57906;
+}
+
+.info{
+    display: flex;
+width: 1240px;
+justify-content: space-between;
+align-items: flex-start;
+}

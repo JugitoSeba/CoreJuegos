@@ -16,7 +16,7 @@ imagen-con-texto {
     width: 577px;
     position: absolute;
     top: 35%; /* Ajusta la posición vertical al centro */
-    left: 41%; /* Ajusta la posición horizontal al centro */
+    left: 38%; /* Ajusta la posición horizontal al centro */
     transform: translate(-50%, -50%); /* Centra el texto correctamente */
     color: rgb(255, 160, 36);
     font-family: Aldrich;
