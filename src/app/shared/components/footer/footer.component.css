@@ -3,7 +3,8 @@
 }
 .footer{
     width: 100%;
-    height: 589px;
+    height: 500px;
+    margin-top: 100px;
     flex-shrink: 0;
     background: #1D1D1D;
 }
@@ -58,4 +59,112 @@ color: #F57906;
 width: 1240px;
 justify-content: space-between;
 align-items: flex-start;
+margin-top: 5%;
+margin-left: 10%;
+margin-right: 10%;
+}
+
+.titulo{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+}
+
+.core{
+color: #F57906;
+font-family: Aldrich;
+font-size: 33.455px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.texto{
+    color: rgba(255, 255, 255, 0.60);
+font-family: Aldrich;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; 
+}
+
+.compania{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.titulocompania{
+    color: #F57906;
+font-family: Aldrich;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; /* 112.5% */
+letter-spacing: 3px;
+text-transform: uppercase;
+}
+
+.companiatexto{
+width: 123px;
+color: rgba(255, 255, 255, 0.60);
+font-family: Aldrich;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 19px; /* 118.75% */
+}
+
+.ayuda{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 26px;
+}
+.tituloayuda{
+    color: #F57906;
+    font-family: Aldrich;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 112.5% */
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.textoayuda{
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Aldrich;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px; /* 118.75% */
+}
+
+.faq{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 26px;
+}
+
+.titulofaq{
+    color: #F57906;
+font-family: Aldrich;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; /* 112.5% */
+letter-spacing: 3px;
+text-transform: uppercase;
+}
+
+.textofaq{
+    width: 149px;
+    color: rgba(255, 255, 255, 0.60);
+font-family: Aldrich;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 19px; /* 118.75% */
 }
