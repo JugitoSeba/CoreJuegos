@@ -7,9 +7,9 @@ import { Producto } from '../../../models/producto';
 })
 export class ProductsService {
   private productos: Producto[] = [
-    { id: 1, titulo: 'Product 1', imagen: 'product1.jpg', precio: 19.99 },
-    { id: 2, titulo: 'Product 2', imagen: 'product2.jpg', precio: 29.99 },
-    // Add more products as needed
+    { id: 1, titulo: 'Dark Souls 3', imagen: 'darksols.jpg', precio: 1300 },
+    { id: 2, titulo: 'Batman:Arkham Knight', imagen: 'batman-arkham-knight1-a80e8acd8cdda0e16915535401463378-640-0.j.jpg', precio: 1000 },
+    
   ];
 
   getProductos(): Producto[] {

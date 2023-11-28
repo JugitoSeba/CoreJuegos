@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { InicioComponent } from './modules/inicio/pages/inicio/inicio.component';
 
+
 const routes: Routes = [
   {
     path:"",component: InicioComponent
@@ -17,7 +18,7 @@ const routes: Routes = [
   },
   {
     path:"perfil",loadChildren:()=>import("./modules/perfil/perfil.module").then(m=>m.PerfilModule)
-  }
+  },
 ];
 
 @NgModule({
