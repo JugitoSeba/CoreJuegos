@@ -21,6 +21,9 @@ const routes: Routes = [
   },
   {
     path:"detalle",loadChildren:()=>import("./modules/detalle/detalle.module").then(m=>m.DetalleModule)
+  },
+  {
+    path:"carro",loadChildren:()=>import("./modules/carro/carro.module").then(m=>m.CarroModule)
   }
 ];
 
