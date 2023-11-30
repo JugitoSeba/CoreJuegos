@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { ProductsService } from './modules/detalle/services/producto.service';
 
 //FIREBASE
 import { environment } from "src/environments/environment";
@@ -18,7 +17,7 @@ import { SharedModule } from './shared/shared.module';
 @NgModule({
   declarations: [
     AppComponent,
-    ProductsService
+  
   ],
   imports: [
     BrowserModule,
