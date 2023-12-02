@@ -1,61 +1,80 @@
-imagen-con-texto {
-    position: relative;
-    width: 100%; /* Ancho del contenedor al 100% del contenedor padre */
-    max-width: 100%; /* Ancho máximo igual al 100% del contenedor padre */
-    max-height: 80vh; /* Altura máxima igual al 80% de la ventana gráfica */
-  }
-  
-  .imagen-con-texto img {
-    max-height: 80vh; /* Altura máxima igual al 80% de la ventana gráfica */
-    width: auto; /* Ancho automático para mantener la proporción */
-    display: block; /* Elimina cualquier espacio vertical adicional */
-    margin: 0 auto; /* Centra la imagen horizontalmente */
-  }
-  
-  .imagen-con-texto span {
-    width: 577px;
-    position: absolute;
-    top: 35%; /* Ajusta la posición vertical al centro */
-    left: 38%; /* Ajusta la posición horizontal al centro */
-    transform: translate(-50%, -50%); /* Centra el texto correctamente */
-    color: rgb(255, 160, 36);
-    font-family: Aldrich;
-    font-size: 3vw; /* Tamaño de fuente relativo al ancho de la ventana */
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5; /* Espacio entre líneas para el texto de varias líneas */
-    white-space: pre-wrap; /* Permite el ajuste de líneas */
-    word-wrap: break-word; /* Rompe las palabras largas si es necesario */
-  }
-  .imagen-con-texto p {
-    position: absolute;
-    width: 30%;
-    top: 47%; /* Ajusta la posición vertical al centro */
-    left: 20%; /* Ajusta la posición horizontal al centro */
-    color: #FFFFFF; /* Color del texto */
-    font-family: Aldrich; /* Fuente del texto */
-    font-size: 1vw; /* Tamaño del texto */
-  }
+.imagen-con-texto {
+  width: 100%;
+  max-width: 100%;
+  max-height: 80vh;
+}
+
+.imagen-con-texto img {
+  max-height: 80vh;
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+}
+
+.imagen-con-texto span {
+  width: 80%; /* Modificado para ser relativo al ancho del contenedor */
+  position: absolute;
+  top: 30%;
+  left:64%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 160, 36);
+  font-family: Aldrich;
+  font-size: 3vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.imagen-con-texto p {
+  position: absolute;
+  width: 80%; /* Modificado para ser relativo al ancho del contenedor */
+  top: 60%; /* Ajustado para una mejor posición en pantallas pequeñas */
+  left: 13%;
+  color: #FFFFFF;
+  font-family: Aldrich;
+  font-size: 2vw; /* Modificado para ser relativo al ancho de la ventana */
+}
+
+.imagen-con-texto .comprar-boton {
+  position: absolute;
+  top: 42%; /* Ajustado para una mejor posición en pantallas pequeñas */
+  left: 40%;
+  background-color: #F57906;
+  color: #FFFFFF;
+  height: 6vw; /* Modificado para ser relativo al ancho de la ventana */
+  width: 20vw; /* Modificado para ser relativo al ancho de la ventana */
+  font-family: Aldrich;
+  border-radius: 50px;
+  font-size: 2vw; /* Modificado para ser relativo al ancho de la ventana */
+  border: none;
+  padding: 1vw 2vw; /* Modificado para ser relativo al ancho de la ventana */
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* Agregar una media query para ajustes adicionales en pantallas pequeñas */
+@media screen and (max-width: 768px) {
+  .imagen-con-texto span,
+  .imagen-con-texto p,
   .imagen-con-texto .comprar-boton {
-    position: absolute;
-    top: 55%; /* Ajusta la posición vertical al centro */
-    left: 20%; /* Ajusta la posición horizontal al centro */
-    background-color: #F57906; /* Color de fondo del botón */
-    color: #FFFFFF; /* Color del texto del botón */
-    height: 6%;
-    width: 9%;
-    font-family: Aldrich;
-    border-radius: 50px;
-    font-size: 16px; /* Tamaño del texto del botón */
-    border: none; /* Elimina el borde del botón */
-    padding: 10px 20px; /* Espaciado interno del botón (arriba/abajo, izquierda/derecha) */
-    margin-top: 10px; /* Espacio superior para separar el botón del texto */
-    cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
+      width: 100%;
+      text-align: center;
+      left: 0;
+      margin-left: 0; /* Ajuste de margen izquierdo */
   }
-  
-  .imagen-con-texto .mi-boton:hover {
-    background-color: #ffffff; /* Cambia el color de fondo al pasar el cursor por encima */
+
+  .imagen-con-texto p {
+      top: 60%; /* Ajustado para una mejor posición en pantallas pequeñas */
+      font-size: 3vw; /* Modificado para ser relativo al ancho de la ventana */
   }
+
+  .imagen-con-texto .comprar-boton {
+      top: 75%; /* Ajustado para una mejor posición en pantallas pequeñas */
+  }
+}
+
 .contenedor {
     background-color: #1E1E1E;
     width: 100%;
