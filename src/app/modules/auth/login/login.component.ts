@@ -31,7 +31,21 @@ export class LoginComponent {
       email: this.usuarios.email,
       contrasena: this.usuarios.contrasena
     };
+
+    const res = await this.servicioAuth.iniciarSesion(credenciales.email, credenciales.contrasena)
+    // MÉTODO THEN -> CUANDO FUNCIONA CORRECTAMENTE
+    .then(res => {
+      alert("Ha accedido con éxito :)");
+      console.log(credenciales.email);
+
       this.router.navigate(['/inicio']);
-    }
+    })
     // MÉTODO THEN -> ENCAPSULA UN FALLO
+    .catch(error => {
+      alert("Hubo un error al iniciar sesión :( \n"+error);
+
+      console.log(credenciales.email);
+    })
+  }
+  
   }

@@ -15,4 +15,18 @@ export class AuthService {
     return this.auth.createUserWithEmailAndPassword(email,contrasena);
 
     }
+     // función para el inicio de sesión
+  iniciarSesion(email: string, contrasena: string){
+    return this.auth.signInWithEmailAndPassword(email, contrasena);
+  }
+  async getUid(){
+    // CURRENTUSER -> JUNTO A LA PROMESA, GENERA CAPTURA
+    const user = await this.auth.currentUser;
+
+    if(user == null){
+      return null;
+    }else{
+      return user.uid;
+    }
+  }
   }
