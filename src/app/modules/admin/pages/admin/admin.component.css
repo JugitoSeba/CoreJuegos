@@ -1,6 +1,14 @@
+*{
+    font-family: Aldrich;
+}
+
 .container{
     display: flex;
     padding: 10px;
     text-align: center;
     justify-content: center;
+    background-color: #292929;
+}
+h1{
+    color: #F57906;
 }
