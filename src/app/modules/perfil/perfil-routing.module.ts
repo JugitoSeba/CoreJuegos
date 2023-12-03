@@ -8,7 +8,7 @@ import { PagosComponent } from './pages/pagos/pagos.component';
 
 const routes: Routes = [
   {
-    path:"",component:PerfilComponent
+    path:"perfil",component:PerfilComponent
   },
   {
     path:"datos",component:DatosComponent

@@ -5,7 +5,7 @@ import { DetalleComponent } from '../detalle/pages/detalle/detalle.component';
 
 const routes: Routes = [
   {
-    path:"",component:SearchComponent
+    path:"search",component:SearchComponent
   },
   {
     path:"detalle",component:DetalleComponent

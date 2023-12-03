@@ -1,6 +1,9 @@
 export interface Producto {
-    id: string | any; // 
-    titulo: string;
+    idProducto: string;
+    nombre: string;
+    imagen: string;
+    alt: string;
+    descripcion: string;
     precio: number;
-    imagen: string ;
+    categoria: string;
 }
