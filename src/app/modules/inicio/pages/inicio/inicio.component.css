@@ -30,7 +30,7 @@
 .imagen-con-texto p {
   position: absolute;
   width: 80%; /* Modificado para ser relativo al ancho del contenedor */
-  top: 60%; /* Ajustado para una mejor posición en pantallas pequeñas */
+  top: 45%; /* Ajustado para una mejor posición en pantallas pequeñas */
   left: 13%;
   color: #FFFFFF;
   font-family: Aldrich;
@@ -39,15 +39,15 @@
 
 .imagen-con-texto .comprar-boton {
   position: absolute;
-  top: 42%; /* Ajustado para una mejor posición en pantallas pequeñas */
-  left: 40%;
+  top: 62%; /* Ajustado para una mejor posición en pantallas pequeñas */
+  left: 42%;
   background-color: #F57906;
   color: #FFFFFF;
   height: 6vw; /* Modificado para ser relativo al ancho de la ventana */
-  width: 20vw; /* Modificado para ser relativo al ancho de la ventana */
+  width: 15vw; /* Modificado para ser relativo al ancho de la ventana */
   font-family: Aldrich;
   border-radius: 50px;
-  font-size: 2vw; /* Modificado para ser relativo al ancho de la ventana */
+  font-size:2vw; /* Modificado para ser relativo al ancho de la ventana */
   border: none;
   padding: 1vw 2vw; /* Modificado para ser relativo al ancho de la ventana */
   margin-top: 10px;
