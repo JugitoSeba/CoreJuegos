@@ -1,1 +1,10 @@
-<p>card-xbox works!</p>
+<div class="col-4" *ngFor="let col of xbox">
+    <div class="p-3"><div class="card">
+        <img src="{{col.imagen}}" class="card-img-top" alt="{{col.alt}}">
+        <div class="card-body">
+          <h5 class="card-title">{{col.nombre}}</h5>
+          <p class="card-text">Precio:${{col.precio}}</p>
+          <a class="btn btn-outline-primary">Comprar</a>
+        </div>
+      </div></div>
+</div>
