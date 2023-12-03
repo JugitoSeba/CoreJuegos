@@ -38,9 +38,7 @@ export class CardXboxComponent {
   mostrarXbox(){
     // forEach itera la colección/ arreglo
     this.coleccionProductos.forEach(producto =>{
-      /* si la categoría del producto es igual a "collares"
-        se va a enviar a la colección "collares"*/
-      if(producto.categoria === "XBOX"){
+      if(producto.categoria === "XBOX ONE"){
         this.xbox.push(producto);
       }
     })
