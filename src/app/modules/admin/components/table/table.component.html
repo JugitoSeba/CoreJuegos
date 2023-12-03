@@ -24,11 +24,11 @@
         <td>
             <!-- Botón Editar -->
             <button id="btn-acs" title="Editar" type="button" class="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#editarProducto" (click)="mostrarEditar(col)">
-              <mat-icon>edit</mat-icon>
+              <mat-icon>Edit</mat-icon>
             </button>
             <!-- Botón Eliminar -->
             <button id="btn-acs" title="Eliminar" type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#eliminarProducto" (click)="mostrarBorrar(col)">
-              <mat-icon>delete</mat-icon>
+              <mat-icon>Delete</mat-icon>
             </button>
         </td>
       </tr>
@@ -37,7 +37,7 @@
 
 <!-- BOTÓN PARA AGREGAR PRODUCTOS -->
 <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#agregarProducto">
-  Agregar un nuevo producto
+  Agregar un nuevo Juego
 </button>
 
 <!-- MODAL PARA AGREGAR PRODUCTO -->
@@ -45,13 +45,13 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Ingrese un nuevo producto:</h1>
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Ingrese un nuevo Juego:</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div [formGroup]="producto" class="modal-body">
         <div class="mb-3">
-          <label class="form-label">Ingrese nombre del producto:</label>
-          <input class="form-control" type="text" formControlName="nombre" placeholder="Ej: Producto color rosa">
+          <label class="form-label">Ingrese nombre del Juego:</label>
+          <input class="form-control" type="text" formControlName="nombre" placeholder="Ej: Fifa 19">
         </div>
 
         <div class="mb-3">
@@ -78,9 +78,9 @@
           <label class="form-label">Seleccione una categoría:</label>
           <select class="form-control" formControlName="categoria" class="form-select">
             <option selected>Elija una opción</option>
-            <option value="collares">Collares</option>
-            <option value="juguetes">Juguetes</option>
-            <option value="indumentaria">Indumentaria</option>
+            <option value="PS4">Playstation 4</option>
+            <option value="PS3">Playstation 3</option>  
+            <option value="XBOX ONE">XBOX ONE</option>
           </select>
         </div>
       </div>
@@ -99,12 +99,12 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Edite el siguiente producto:</h1>
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Edite el siguiente juego:</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div [formGroup]="producto" class="modal-body">
         <div class="mb-3">
-          <label class="form-label">Ingrese nombre del producto:</label>
+          <label class="form-label">Ingrese nombre del juego:</label>
           <input class="form-control" type="text" formControlName="nombre" placeholder="{{col.nombre}}">
         </div>
 
@@ -120,7 +120,7 @@
 
         <div class="mb-3">
           <label class="form-label">Ingrese una descripción:</label>
-          <input class="form-control" type="text" formControlName="descripcion" placeholder="{{col.descripcion}}">
+          <input class="form-control" type="text" formControlName="descripcion" placeholder="Ingrese una descripción">
         </div>
 
         <div class="mb-3">
@@ -132,9 +132,9 @@
           <label class="form-label">Seleccione una categoría:</label>
           <select class="form-control" formControlName="categoria" class="form-select">
             <option selected>Elija una opción</option>
-            <option value="collares">Collares</option>
-            <option value="juguetes">Juguetes</option>
-            <option value="indumentaria">Indumentaria</option>
+            <option value="PS4">Playstation 4</option>
+            <option value="PS3">Playstation 3</option>
+            <option value="XBOX ONE">XBOX ONE</option>
           </select>
         </div>
       </div>
@@ -153,13 +153,12 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">¿Está seguro de eliminar el producto?</h1>
+        <h1 class="modal-title fs-5" id="exampleModalLabel">¿Está seguro de eliminar el juego?</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         <!-- MOSTRAR EL PRODUCTO QUE ELIMINAREMOS-->
         {{productoSeleccionado.nombre}}
-        <img src="{{productoSeleccionado.imagen}}" alt="{{productoSeleccionado.alt}}">
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal" (click)="borrarProducto()">Eliminar</button>
