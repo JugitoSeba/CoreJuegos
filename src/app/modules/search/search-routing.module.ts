@@ -1,15 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { SearchComponent } from './pages/search/search.component';
-import { DetalleComponent } from '../detalle/pages/detalle/detalle.component';
 
 const routes: Routes = [
   {
     path:"search",component:SearchComponent
-  },
-  {
-    path:"detalle",component:DetalleComponent
   }
+
 ];
 
 @NgModule({

@@ -20,14 +20,8 @@ const routes: Routes = [
     path:"",loadChildren:()=>import("./modules/perfil/perfil.module").then(m=>m.PerfilModule)
   },
   {
-    path:"",loadChildren:()=>import("./modules/detalle/detalle.module").then(m=>m.DetalleModule)
-  },
-  {
-    path:"",loadChildren:()=>import("./modules/carro/carro.module").then(m=>m.CarroModule)
-  },
-  {
     path:"",loadChildren:()=>import("./modules/admin/admin.module").then(m=>m.AdminModule)
-  }
+  },
 ];
 
 @NgModule({

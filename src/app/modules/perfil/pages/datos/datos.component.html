@@ -5,19 +5,6 @@
     <script src="https://kit.fontawesome.com/ab7942aa6d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
-    <script>
-    function cambiarFotoPerfil() {
-        var fotoPerfil = document.getElementById("foto-perfil");
-        var inputFoto = document.getElementById("input-foto");
-        if (inputFoto.files && inputFoto.files[0]) {
-          var reader = new FileReader();
-          reader.onload = function(e) {
-            fotoPerfil.src = e.target.result;
-          }
-          reader.readAsDataURL(inputFoto.files[0]);
-        }
-      }
-    </script>
 
 
 </head>
@@ -25,8 +12,6 @@
     <div class="container-fluid main" style="height:100vh;padding-left:0px;">
 
         <div class="d-block d-md-none menu">
-
-            <div class="bar">POR QUE NO SERVIS</div>
 
         </div>
 
@@ -51,10 +36,6 @@
             <h2 class="mt-5 mb-5">Mi Perfil y Datos</h2>
 
             <div class="row" style="height:100%">
-
-                <div class="col-md-3">
-                    <div href=# class="d-inline"><img src="assets/cato.jpg" width=130px style="margin:0;" id="foto-perfil"><input id="input-foto" type="file" style="color: #1b1a1a;"><br><p class="pl-2 mt-2"><a class="btn" style="color:#8f9096;font-weight:600" onclick="cambiarFotoPerfil()">Cambiar Foto</a></p></div>
-                </div>
 
                 <div class="col-md-9">
 

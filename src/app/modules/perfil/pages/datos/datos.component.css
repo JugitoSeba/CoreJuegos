@@ -37,10 +37,6 @@ form .form-control,form .form-control:focus{
     border-radius: 50%;
     margin-left: 15px;
 }
-#inputFoto{
-    color: #e24800;
-    border-radius: 100%;
-}
 
 form .btn{ 
     border-radius: 7%;
@@ -98,7 +94,4 @@ form .btn{
         margin:auto;
     }
     
-}
-#ahre{
-    color: aqua;
 }
