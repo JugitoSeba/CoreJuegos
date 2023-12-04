@@ -1,43 +1,53 @@
-*{
+/* Establece la fuente para todos los elementos en la página */
+* {
   font-family: Aldrich;
 }
 
+/* Estilo del contenedor del carrito de compras */
 .shopping-cart {
   background-color: #1F1F1F;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
   color: white;
 }
+
+/* Estilo de cada producto en el carrito */
 .product {
   display: flex;
   border-bottom: 1px solid #eee;
   padding: 10px 0;
 }
 
+/* Estilo de las imágenes de los productos */
 .product img {
   width: 80px;
   height: 80px;
   margin-right: 10px;
 }
 
+/* Ocupa el espacio restante en la fila del producto para los detalles */
 .product-details {
   flex: 1;
 }
 
+/* Estilo del título del producto */
 .product-title {
   font-weight: bold;
 }
 
+/* Estilo para precio, cantidad, eliminación y precio total de cada producto */
 .product-price, .product-quantity, .product-removal, .product-line-price {
   width: 10%;
   text-align: center;
 }
 
+/* Estilo del campo de entrada de cantidad */
 .product-quantity input {
   width: 30px;
   text-align: center;
 }
 
+/* Estilo del botón de eliminación de producto */
 .remove-product {
   background-color: #d9534f;
   color: #fff;
@@ -47,24 +57,29 @@
   border-radius: 3px;
 }
 
+/* Cambia el color de fondo cuando el cursor pasa sobre el botón de eliminación */
 .remove-product:hover {
   background-color: #c9302c;
 }
 
+/* Estilo de la sección de totales */
 .totals {
   margin-top: 20px;
 }
 
+/* Estilo de cada elemento dentro de la sección de totales */
 .totals .totals-item {
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
 }
 
+/* Estilo para las etiquetas dentro de los elementos totales */
 .totals .totals-item label {
   font-weight: bold;
 }
 
+/* Estilo del botón de pago */
 .checkout {
   background-color: #F57906;
   color: #fff;
@@ -75,6 +90,7 @@
   border-radius: 3px;
 }
 
+/* Cambia el color de fondo cuando el cursor pasa sobre el botón de pago */
 .checkout:hover {
   background-color: #ffac5f;
 }
