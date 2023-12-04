@@ -2,7 +2,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
 </style>
 <div class="naranja" style="background: var(--Blue, linear-gradient(180deg, #E66405 0%, #8A3302 84.79%, #793402 100%));">
-    <span>Core Juegos</span>
+    <span routerLink="/inicio">Core Juegos</span>
     <p>Todos los Juegos.</p>
 </div>
 <div class="zonaRegistro">
@@ -12,7 +12,7 @@
     <input type="text" class="inputEmail" placeholder="Email" [(ngModel)]="usuarios.email" matInput type="text" required>
     <input class="inputContrasena" placeholder="Contraseña"  [(ngModel)]="usuarios.contrasena" matInput [type]="hide ? 'password' : 'text'" #input minlength="6" required>
     <button class="button" (click)="registrarse()">Registrarse</button>
-    <p class="linkIniciarSesion" routerLink="/auth/login" type="button">Ya tienes una Cuenta?</p>
+    <p class="linkIniciarSesion" routerLink="/login" type="button">Ya tienes una Cuenta?</p>
 </div>
 
 <div class="clear"></div> 
