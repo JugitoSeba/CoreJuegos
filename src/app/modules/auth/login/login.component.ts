@@ -35,14 +35,14 @@ export class LoginComponent {
     const res = await this.servicioAuth.iniciarSesion(credenciales.email, credenciales.contrasena)
     // MÉTODO THEN -> CUANDO FUNCIONA CORRECTAMENTE
     .then(res => {
-      alert("Ha accedido con éxito :)");
+      alert("Bienvenido.");
       console.log(credenciales.email);
 
       this.router.navigate(['/inicio']);
     })
     // MÉTODO THEN -> ENCAPSULA UN FALLO
     .catch(error => {
-      alert("Hubo un error al iniciar sesión :( \n"+error);
+      alert("Ocurrio algo inesperado. \n"+error);
 
       console.log(credenciales.email);
     })

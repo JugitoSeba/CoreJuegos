@@ -43,14 +43,14 @@ export class RegistroComponent {
     const res = await this.servicioAuth.registrar(credenciales.email, credenciales.contrasena)
       // método THEN devuelve misma promesa
       .then(res => {
-        alert("Ha agregado un nuevo usuario con éxito :)");
+        alert("Encantado de conocerlo.");
 
         // llamamos una nueva ruta -> nos redirigimos
         this.router.navigate(["/inicio"]);
       })
       // método CATCH creará un error en caso de que algo salga mal
       .catch(error =>
-        alert("Hubo un error al crear el usuario :( \n" + error)
+        alert("Ocurrio algo inesperado.\n" + error)
       );
 
       // creamos constante UID para el UID que obtengamos
