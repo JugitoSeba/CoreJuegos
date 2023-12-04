@@ -53,10 +53,10 @@ export class TableComponent {
       // llamamos al servicioCrud; función crearProducto; seteamos nuevoProducto
       await this.servicioCrud.crearProducto(nuevoProducto)
       .then(producto => {
-        alert("Ha agregado un nuevo producto con éxito :)");
+        alert("Videojuego agregado al catalogo.");
       })
       .catch(error => {
-        alert("Hubo un error al cargar nuevo producto :( \n"+error);
+        alert("Ocurrio algo inesperado \n"+error);
       })
     }
   }
@@ -94,10 +94,10 @@ export class TableComponent {
 
     this.servicioCrud.modificarProducto(this.productoSeleccionado.idProducto, datos)
     .then(producto => {
-      alert("El producto fue modificado con éxito :).");
+      alert("Los datos del videojuego han sido modificados.");
     })
     .catch(error => {
-      alert("No se pudo modificar el producto :( \n"+error);
+      alert("Ocurrio algo inesperado. \n"+error);
     })
   }
 
@@ -110,10 +110,10 @@ export class TableComponent {
   borrarProducto(){ // botón para eliminar definitivamente
     this.servicioCrud.eliminarProducto(this.productoSeleccionado.idProducto)
     .then(respuesta => {
-      alert("El producto se ha eliminado correctamente :)");
+      alert("Videojuego eliminado del catalogo.");
     })
     .catch(error => {
-      alert("No se ha podido eliminar el producto :( \n"+error);
+      alert("Ocurrio algo inesperado.\n"+error);
     })
   }
 }
