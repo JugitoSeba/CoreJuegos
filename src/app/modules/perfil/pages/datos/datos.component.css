@@ -1,34 +1,45 @@
-#body{
+/* Estilo para el cuerpo de la página */
+#body {
     font-family: 'Aldrich';
-    background-color: #1b1a1a
+    background-color: #1b1a1a;
 }
 
-body,html{
-    height:100%;
+/* Ajustes para el cuerpo y el html */
+body, html {
+    height: 100%;
 }
-h2{
+
+/* Estilo para los encabezados h2 */
+h2 {
     font-weight: bolder;
     color: #e24800;
 }
 
-form{
-    width:550px;
+/* Estilo para los formularios */
+form {
+    width: 550px;
 }
 
-form *{
+/* Aplica negrita a todos los elementos dentro del formulario */
+form * {
     font-weight: bold;
 }
 
-form label{
+/* Estilo para las etiquetas dentro del formulario */
+form label {
     font-size: 18px;
-    color:aliceblue
+    color: aliceblue;
 }
-form .form-control,form .form-control:focus{
-    border-color:transparent;
+
+/* Estilo para los campos de entrada y su enfoque */
+form .form-control, form .form-control:focus {
+    border-color: transparent;
     border-bottom-color: #bebcc1;
-    box-shadow:none;
+    box-shadow: none;
 }
-.col-md-3 img{
+
+/* Estilo para las imágenes dentro de col-md-3 */
+.col-md-3 img {
     object-fit: fill;
     margin-top: 19px;
     height: 120px;
@@ -38,60 +49,71 @@ form .form-control,form .form-control:focus{
     margin-left: 15px;
 }
 
-form .btn{ 
+/* Estilo para el botón del formulario */
+form .btn {
     border-radius: 7%;
     border-color: transparent;
 }
-.btn.btn-default{
+
+/* Estilo para el botón por defecto del formulario */
+.btn.btn-default {
     background: #a3061e;
-    color:#d2d2d2;
+    color: #d2d2d2;
     border-radius: 10%;
 }
 
-.btn.btn-primary{
-    background:  #e24800;
-    color:white;
+/* Estilo para el botón primario del formulario */
+.btn.btn-primary {
+    background: #e24800;
+    color: white;
 }
+
+/* Estilo para la barra lateral */
 .sidebar {
     height: 100vh !important;
     bottom: 0;
-    padding-left:20px;
+    padding-left: 20px;
     font-size: 1.3rem;
-    background:  #e24800;
+    background: #e24800;
 }
 
-@media screen and (max-width:940px){
-    .sidebar{
+/* Estilo para la barra lateral en pantallas más pequeñas */
+@media screen and (max-width: 940px) {
+    .sidebar {
         font-size: 1rem;
-        padding-left :0px;
+        padding-left: 0px;
     }
 }
 
-
-.sidebar .nav-link{
+/* Estilo para los enlaces de navegación en la barra lateral */
+.sidebar .nav-link {
     margin-bottom: 20px;
-    color:#dddce5;
+    color: #dddce5;
 }
 
-.nav-link.active{
-    color:#fff;
+/* Estilo para el enlace de navegación activo */
+.nav-link.active {
+    color: #fff;
 }
 
-.main > .row{
+/* Ajustes para el contenido principal en la fila */
+.main > .row {
     height: 100%;
 }
 
-@media screen and (max-width:768px){
-    .content{
-        padding-left:50px; 
+/* Estilo para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+    /* Ajustes para el contenido */
+    .content {
+        padding-left: 50px;
         width: 100%;
         padding-top: 200px;
         padding-bottom: 50px;
     }
-    
-    form{
+
+    /* Ajustes para el formulario */
+    form {
         width: 100%;
-        margin:auto;
+        margin: auto;
     }
-    
 }
