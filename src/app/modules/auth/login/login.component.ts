@@ -42,7 +42,7 @@ export class LoginComponent {
     })
     // MÉTODO THEN -> ENCAPSULA UN FALLO
     .catch(error => {
-      alert("Ocurrio algo inesperado. \n"+error);
+      alert("No se pudo iniciar sesion. \n"+error);
 
       console.log(credenciales.email);
     })

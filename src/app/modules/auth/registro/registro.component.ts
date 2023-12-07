@@ -50,7 +50,7 @@ export class RegistroComponent {
       })
       // método CATCH creará un error en caso de que algo salga mal
       .catch(error =>
-        alert("Ocurrio algo inesperado.\n" + error)
+        alert("Por favor llene todos los parametros.\n" + error)
       );
 
       // creamos constante UID para el UID que obtengamos
