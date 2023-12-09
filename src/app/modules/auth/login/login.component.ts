@@ -47,5 +47,15 @@ export class LoginComponent {
       console.log(credenciales.email);
     })
   }
-  
+  // llamamos función para CERRAR SESIÓN
+  async salir(){
+    const res = await this.servicioAuth.cerrarSesion()
+    .then(res => {
+      alert("Ha cerrado sesión con éxito.");
+      console.log(res);
+
+      this.router.navigate(['/inicio']);
+    })
+  }
+
   }

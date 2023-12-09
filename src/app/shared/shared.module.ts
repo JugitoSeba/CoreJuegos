@@ -12,6 +12,7 @@ import { RouterModule } from '@angular/router';
 
 
 
+
 @NgModule({
   declarations: [
     FooterComponent,
@@ -23,7 +24,8 @@ import { RouterModule } from '@angular/router';
     MatIconModule,
     MatButtonModule,
     MatToolbarModule,
-    MatMenuModule
+    MatMenuModule,
+
   ],
   exports:[
     NavbarComponent,
@@ -32,6 +34,7 @@ import { RouterModule } from '@angular/router';
     MatButtonModule,
     MatToolbarModule,
     MatMenuModule,
+
   ]
 })
 export class SharedModule { }
