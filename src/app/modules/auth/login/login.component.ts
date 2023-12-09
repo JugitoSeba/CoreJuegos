@@ -38,7 +38,7 @@ export class LoginComponent {
       alert("Bienvenido.");
       console.log(credenciales.email);
 
-      this.router.navigate(['/inicio']);
+      this.router.navigate(['/search']);
     })
     // MÉTODO THEN -> ENCAPSULA UN FALLO
     .catch(error => {

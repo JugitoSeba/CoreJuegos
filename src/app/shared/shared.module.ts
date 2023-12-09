@@ -9,6 +9,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatMenuModule } from '@angular/material/menu';
 import { RouterModule } from '@angular/router';
+import { Navbar2Component } from './components/navbar2/navbar2.component';
 
 
 
@@ -16,7 +17,8 @@ import { RouterModule } from '@angular/router';
 @NgModule({
   declarations: [
     FooterComponent,
-    NavbarComponent
+    NavbarComponent,
+    Navbar2Component
   ],
   imports: [
     RouterModule,

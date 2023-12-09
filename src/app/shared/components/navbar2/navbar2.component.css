@@ -26,17 +26,18 @@
     font-size: 18px;
   }
   
-  /* Agrega estilos para el dropdown y otros elementos según tus necesidades */
-  
+
+  .profile-icon {
+    font-size: 24px;
+    color: rgb(255, 94, 0);
+    text-decoration: none;
+    margin-left: 20px;
+  }
   
   .nav-link{
     color:rgb(255, 94, 0);
   }
 
-  .botonRegistro{
-    font-size: 18px;
-    color:rgb(255, 94, 0);
-    background-color: rgb(255, 255, 255);
-    border-radius: 10%;
-    border-style:ridge
-  }
+.adminBoton{
+  background-color: aliceblue;
+}

@@ -1,0 +1,88 @@
+.imagen-con-texto {
+    width: 100%;
+    max-width: 100%;
+    max-height: 80vh;
+  }
+  
+  .imagen-con-texto img {
+    max-height: 80vh;
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .imagen-con-texto span {
+    width: 80%; /* Modificado para ser relativo al ancho del contenedor */
+    position: absolute;
+    top: 32%;
+    left:64%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 160, 36);
+    font-family: Aldrich;
+    font-size: 3vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  
+  .imagen-con-texto p {
+    position: absolute;
+    width: 80%; /* Modificado para ser relativo al ancho del contenedor */
+    top: 43%; /* Ajustado para una mejor posición en pantallas pequeñas */
+    left: 13%;
+    color: #FFFFFF;
+    font-family: Aldrich;
+    font-size: 2vw; /* Modificado para ser relativo al ancho de la ventana */
+  }
+  
+  .imagen-con-texto .comprar-boton {
+    position: absolute;
+    top: 57%; /* Ajustado para una mejor posición en pantallas pequeñas */
+    left: 42%;
+    background-color: #F57906;
+    color: #FFFFFF;
+    height: 6vw; /* Modificado para ser relativo al ancho de la ventana */
+    width: 15vw; /* Modificado para ser relativo al ancho de la ventana */
+    font-family: Aldrich;
+    border-radius: 50px;
+    font-size:2vw; /* Modificado para ser relativo al ancho de la ventana */
+    border: none;
+    padding: 1vw 2vw; /* Modificado para ser relativo al ancho de la ventana */
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  /* Agregar una media query para ajustes adicionales en pantallas pequeñas */
+  @media screen and (max-width: 768px) {
+    .imagen-con-texto span,
+    .imagen-con-texto p,
+    .imagen-con-texto .comprar-boton {
+        width: 100%;
+        text-align: center;
+        left: 0;
+        margin-left: 0; /* Ajuste de margen izquierdo */
+    }
+  
+    .imagen-con-texto p {
+        top: 60%; /* Ajustado para una mejor posición en pantallas pequeñas */
+        font-size: 3vw; /* Modificado para ser relativo al ancho de la ventana */
+    }
+  
+    .imagen-con-texto .comprar-boton {
+        top: 75%; /* Ajustado para una mejor posición en pantallas pequeñas */
+    }
+  }
+  
+  .contenedor {
+      background-color: #1E1E1E;
+      width: 100%;
+      height: 4370px
+  }
+  
+  .bienvenida{
+  font-family: Aldrich;
+  background: #F57906;
+  padding: 1% 2% 1% 35%;
+  }
