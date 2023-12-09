@@ -4,15 +4,15 @@
     </style>
   <nav class="navbar">
       <div class="container">
-        <a class="navbar-brand" href="#">CORE.COM</a>
+        <a class="navbar-brand" href="inicio2">CORE.COM</a>
         <ul class="nav">
           <li class="nav-item">
-            <a class="nav-link" routerLink="/search">Explorar</a>
+            <a class="nav-link" routerLink="/search2">Explorar</a>
           </li>
         </ul>
         <button mat-button routerLink="/admin" style="color: #F57906;" class="adminBoton">Administrador</button>
         <li class="nav-item">
-            <button class="boton" mat-raised-button color="primary" (click)="salir()">Cerrar Sesión</button>
+          <button mat-button style="color: #F57906;" class="adminBoton" routerLink="/cerrar">Cerrar Sesion</button>
         </li>
         <i class="bi bi-person-circle" style="color: aliceblue;" routerLink="/perfil">PERFIL</i>
       </div>

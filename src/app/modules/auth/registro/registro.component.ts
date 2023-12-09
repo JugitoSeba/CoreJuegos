@@ -46,7 +46,7 @@ export class RegistroComponent {
         alert("Encantado de conocerlo.");
 
         // llamamos una nueva ruta -> nos redirigimos
-        this.router.navigate(["/inicio"]);
+        this.router.navigate(["/login"]);
       })
       // método CATCH creará un error en caso de que algo salga mal
       .catch(error =>
