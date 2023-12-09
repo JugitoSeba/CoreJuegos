@@ -12,9 +12,6 @@ import { MatMenuModule } from '@angular/material/menu';
 import { RouterModule } from '@angular/router';
 
 
-
-
-
 @NgModule({
   declarations: [
     FooterComponent,
