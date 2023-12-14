@@ -10,9 +10,9 @@ import { Router } from '@angular/router';
   styleUrls: ['./registro.component.css']
 })
 export class RegistroComponent {
-  hide = true; // input de contraseña
+  hide = true; // sirve para ocultar la contraseña
 
-  // definimos de forma pública el servicioAuth, servicioFirestore, servicio de ruteo
+  // definimos de forma pública el servicioAuth, servicioFirestore, servicio de ruteo, para que no hay problemas a futuro
   constructor(
     public servicioAuth: AuthService,
     public servicioFirestore: FirestoreService,
@@ -32,14 +32,14 @@ export class RegistroComponent {
   // creamos nueva colección para Usuarios
   coleccionUsuarios: Usuario[] = [];
 
-  // tomando nuevo registro
-  // ASYNC = ASINCRONICO
+  // registra nuevo registro
+  // metodo asincronico .1
   async registrarse() {
     const credenciales = {
       email: this.usuarios.email,
       contrasena: this.usuarios.contrasena
     };
-
+    //2
     const res = await this.servicioAuth.registrar(credenciales.email, credenciales.contrasena)
       // método THEN devuelve misma promesa
       .then(res => {
@@ -53,7 +53,7 @@ export class RegistroComponent {
         alert("Por favor llene todos los parametros.\n" + error)
       );
 
-      // creamos constante UID para el UID que obtengamos
+      // creamos constante UID para el UID que obtengamos.3
       const uid = await this.servicioAuth.getUid();
 
       // referenciamos el uid nuevo con el de usuario
@@ -63,17 +63,17 @@ export class RegistroComponent {
       this.guardarUser();
   }
 
-  // función asíncronica para guardar usuarios
+  // función asíncronica para guardar usuarios y agregarlos a la base de datos
   async guardarUser(){
     this.servicioFirestore.agregarUsuario(this.usuarios, this.usuarios.uid)
     .then(res => {
-      console.log(this.usuarios);
+      console.log(this.usuarios); //Si es exitosa lo muestra por consola.
     })
     .catch(error => {
       console.log('Error =>', error);
     })
   }
-
+  //se ejecuta al iniciar el componente para mostra
   async ngOnInit(){
     const uid = await this.servicioAuth.getUid();
     console.log(uid);
